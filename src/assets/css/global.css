@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('../fonts/OpenSans-Regular_0.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url('../fonts/OpenSans-Regular_0.ttf') format('truetype');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('../fonts/OpenSans-Bold_0.ttf') format('truetype');;
+    font-weight: 900
+}
+
+@font-face {
+    font-family: 'OpenSans-Semibold';
+    src: url('../fonts/OpenSans-SemiBold_0.ttf') format('truetype');;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'ShipporiMincho-Regular';
+    src: url('../fonts/ShipporiMincho-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ShipporiMincho-Medium';
+    src: url('../fonts/ShipporiMincho-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'ShipporiMincho-SemiBold';
+    src: url('../fonts/ShipporiMincho-SemiBold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'ShipporiMincho-Bold';
+    src: url('../fonts/ShipporiMincho-Bold.ttf') format('truetype');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'ShipporiMincho-ExtraBold';
+    src: url('../fonts/ShipporiMincho-ExtraBold.ttf') format('truetype');
+    font-weight: bolder;
+}
+
+/* body {
+    font-family: 'OpenSans', serif;
+} */
+
+/* Some helper classes */
+
+.font-openSans {
+    font-family: 'OpenSans-Regular', serif;
+}
+
+.font-openSans-light {
+    font-family: 'OpenSans-Light', serif;
+}
+
+.font-openSans-bold {
+    font-family: 'OpenSans-Bold', serif;
+}
+
+.font-openSans-semiBold {
+    font-family: 'OpenSans-SemiBold', serif;
+}
+
+.font-shippori {
+    font-family: 'ShipporiMincho-Regular', serif;
+}
+
+.font-shippori-medium {
+    font-family: 'ShipporiMincho-Medium', serif;
+}
+
+.font-shippori-semiBold {
+    font-family: 'ShipporiMincho-SemiBold', serif;
+}
+
+.font-shippori-bold {
+    font-family: 'ShipporiMincho-Bold', serif;
+}
+
+.font-shippori-extraBold {
+    font-family: 'ShipporiMincho-ExtraBold', serif;
+}
+
+.contact-bg {
+    background: url('../img/contact-bg.jpg') no-repeat center /cover;
+}
+
+.contact-btn {
+    background: linear-gradient(to left, #f0072f, #f9413f);
+}
+
+.primary-btn {
+    background: linear-gradient(to bottom, #4256ac, #2b3c93);
+}
+
+.footer {
+    background: url('../img/bottom-bg.jpg') center /cover no-repeat;
+    background-position-y: 0;
+}
+
+.home-bg {
+    background: url('../img/bg-red.jpg') center /cover no-repeat;
+}
