@@ -93,7 +93,7 @@
 }
 
 .contact-bg {
-    background: url('../img/contact-bg.jpg') no-repeat center /cover;
+    background: url('../img/services-bg.svg') no-repeat center /cover;
 }
 
 .contact-btn {
@@ -105,10 +105,35 @@
 }
 
 .footer {
-    background: url('../img/bottom-bg.jpg') center /cover no-repeat;
+    background: url('../img/footer-bg.svg') center /cover no-repeat;
     background-position-y: 0;
 }
 
 .home-bg {
-    background: url('../img/bg-red.jpg') center /cover no-repeat;
+    background: url('../img/bg-red.svg') center /cover no-repeat;
+}
+
+.mob-home-bg {
+    background: none;
+}
+
+@media only screen and (max-width: 1023px) {
+    .mob-home-bg {
+        background: url('../img/bg-red.svg') center /cover no-repeat !important;
+    }
+    .blue-color {
+        color: #fff !important;
+    }
+}
+
+.blue-color {
+    color: #2b3c93
+}
+
+.red-color {
+    color: #F42437; 
+}
+
+.black-color {
+    color: #292929;
 }

@@ -9,37 +9,61 @@
   </head>
 
   <body>
-    <section class="banner mb-20">
+    <section class="banner mb-20 relative">
+      <img
+        src="./assets/img/home-effect.svg"
+        alt=""
+        class="absolute h-1/2 xl:block hidden"
+        style="z-index: -1"
+      />
       <div class="container ml-auto">
         <div class="flex flex-wrap">
-          <div class="lg:w-1/2 pt-6 lg:px-0 px-5 lg:mb-0 mb-5">
-            <img src="./assets/img/logo.png" alt="" class="md:mb-32" />
-            <p class="font-openSans text-red-500 text-sm">
+          <div
+            class="lg:w-1/2 w-full lg:pb-0 pb-6 pt-6 px-5 lg:mb-0 mb-5 xl:pl-0 sm:pl-4 mob-home-bg"
+          >
+            <img
+              src="./assets/img/logo.svg"
+              alt=""
+              class="mb-32 lg:flex hidden"
+            />
+            <div class="lg:hidden flex w-full items-start">
+              <img
+                src="./assets/img/logo-white.svg"
+                alt=""
+                class="md:mb-24 mb-10 lg:hidden flex"
+              />
+              <button class="ml-auto outline-none focus:outline-none">
+                <span class="bg-white h-1 w-12 block"></span>
+                <span class="bg-white h-1 w-12 my-2 block"></span>
+                <span class="bg-white h-1 w-12 block"></span>
+              </button>
+            </div>
+            <p class="font-openSans red-color text-lg lg:block hidden">
+              At MH Services, we are
+            </p>
+            <p class="font-openSans text-white text-lg lg:hidden block">
               At MH Services, we are
             </p>
             <h1
-              class="lg:text-6xl md:text-4xl text-2xl lg:leading-tight font-shippori"
+              class="lg:text-black text-white lg:my-0 my-4 lg:text-6xl md:text-4xl text-2xl lg:leading-tight font-shippori"
             >
               Making Home <br />
               Ownership Simple <br />
               and Easy
             </h1>
-            <p class="text-gray-500 font-openSans my-4">
+            <p class="lg:text-gray-500 text-white font-openSans my-4 text-lg">
               Our customers are our biggest priority. if you <br />
               live in a manufactured home or mobile home <br />
               we are your financing source.
             </p>
             <div class="flex">
               <img
-                src="./assets/img/arrow.png"
+                src="./assets/img/home-arrow.svg"
                 alt=""
-                class="w-12 h-32 pt-3 mr-2 lg:-ml-14"
+                class="w-16 pt-3 mr-2 lg:-ml-16"
               />
               <div>
-                <p
-                  class="uppercase font-openSans-semiBold text-sm"
-                  style="color: #2b3c93"
-                >
+                <p class="uppercase font-openSans-semiBold text-xl blue-color">
                   call today and find out why we <br />
                   are the leading mh finance <br />
                   source.
@@ -53,43 +77,63 @@
               </div>
             </div>
           </div>
-          <div class="lg:w-1/2 home-bg pt-6 pb-20 lg:px-0 px-5">
+          <div class="lg:w-1/2 lg:flex hidden home-bg pt-6 pb-20 xl:px-0 px-5">
             <div class="flex flex-wrap">
               <div class="xl:w-4/5 w-full lg:ml-auto">
                 <div class="xl:ml-20 flex items-center">
-					<img src="./assets/img/phone-call.png" alt="">
-                  <p class="font-openSans-semiBold text-white ml-3 mr-6">888 732 9099</p>
+                  <img src="./assets/img/phone-icon.svg" alt="" />
+                  <p class="font-openSans-semiBold text-white ml-3 mr-6 text-xl">
+                    888 732 9099
+                  </p>
                   <button
-                    class="px-8 py-2 rounded-md text-white font-openSans-semiBold primary-btn text-sm"
+                    class="px-8 py-2 rounded-md text-white font-openSans-semiBold primary-btn text-base"
                   >
                     Online application
                   </button>
                 </div>
                 <div class="h-px bg-white w-full my-4"></div>
-				<div class="w-full">
-					<ul>
-						<li class="inline-block font-openSans-semiBold lg:mr-8 mr-4 lg:text-sm text-xs">
-							<a href="#" class="text-white">About</a>
-						</li>
-						<li class="inline-block font-openSans-semiBold lg:mr-8 mr-4 lg:text-sm text-xs">
-							<a href="#" class="text-white">Financing</a>
-						</li>
-						<li class="inline-block font-openSans-semiBold lg:mr-8 mr-4 lg:text-sm text-xs">
-							<a href="#" class="text-white">Insurance</a>
-						</li>
-						<li class="inline-block font-openSans-semiBold lg:mr-8 mr-4 lg:text-sm text-xs">
-							<a href="#" class="text-white">Escrow</a>
-						</li>
-						<li class="inline-block font-openSans-semiBold lg:mr-8 lg:text-sm text-xs">
-							<a href="#" class="text-white">Contact</a>
-						</li>
-					</ul>
-				</div>
+                <div class="w-full">
+                  <ul>
+                    <li
+                      class="inline-block font-openSans-semiBold xl:mr-8 mr-4 text-base"
+                    >
+                      <a href="#" class="text-white">About</a>
+                    </li>
+                    <li
+                      class="inline-block font-openSans-semiBold xl:mr-8 mr-4 text-base"
+                    >
+                      <a href="#" class="text-white">Financing</a>
+                    </li>
+                    <li
+                      class="inline-block font-openSans-semiBold xl:mr-8 mr-4 text-base"
+                    >
+                      <a href="#" class="text-white">Insurance</a>
+                    </li>
+                    <li
+                      class="inline-block font-openSans-semiBold xl:mr-8 mr-4 text-base"
+                    >
+                      <a href="#" class="text-white">Escrow</a>
+                    </li>
+                    <li
+                      class="inline-block font-openSans-semiBold xl:mr-8 text-base"
+                    >
+                      <a href="#" class="text-white">Contact</a>
+                    </li>
+                  </ul>
+                </div>
               </div>
-			  <div class="w-full relative">
-				  <img src="./assets/img/hero-image.png" alt="" class="xl:w-11/12 xl:-ml-32 lg:mt-16 mt-6">
-				  <img src="./assets/img/tile.svg" alt="" class="absolute bottom-0 -left-72 -ml-3 xl:block hidden">
-			  </div>
+              <div class="w-full relative">
+                <img
+                  src="./assets/img/home-img.svg"
+                  alt=""
+                  class="xl:w-11/12 xl:-ml-32 lg:mt-16 mt-6"
+                />
+                <img
+                  src="./assets/img/home-img2.svg"
+                  alt=""
+                  class="absolute bottom-0 -left-72 -ml-4 xl:block hidden"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -103,69 +147,62 @@
       <div class="container mx-auto md:px-10 px-4">
         <div class="flex flex-wrap">
           <div class="w-full text-center mb-16">
-            <p class="text-red-500 mb-3 text-sm font-openSans">
+            <p class="red-color mb-3 text-lg font-openSans">
               We're here for you!
             </p>
-            <h1 class="md:text-5xl text-3xl font-shippori">
+            <h1 class="md:text-6xl text-3xl font-shippori">
               Services We Offer
             </h1>
           </div>
           <div
             class="w-full flex flex-wrap md:justify-start justify-center relative"
           >
-            <div class="md:mb-0 mb-4 md:mr-0 mr-2">
-              <div
-                class="w-16 h-16 rounded-lg flex items-center justify-center mx-auto"
-                style="background-color: #e9f8ff"
-              >
-                <img src="./assets/img/dollar.png" alt="" class="w-2/3" />
-              </div>
-              <h1 class="text-lg text-center my-3 font-openSans-semiBold">
+            <div class="xl:mb-0 mb-6 md:mr-0 mr-2 relative">
+              <img
+                src="./assets/img/service-dollor.svg"
+                alt=""
+                class="mx-auto"
+              />
+              <h1 class="text-3xl text-center my-3 font-openSans-semiBold">
                 Financing
               </h1>
-              <p class="text-sm text-gray-400 text-center font-openSans">
+              <p class="text-lg text-gray-400 text-center font-openSans">
                 MH Services offers a variety of programs <br />
                 for financing a manufactured home <br />
                 or refinancing a mobile home
               </p>
+              <img
+                src="./assets/img/line-left.svg"
+                alt=""
+                class="absolute left-3/4 w-full top-1/4 xl:block hidden"
+              />
             </div>
-            <img
-              src="./assets/img/line-l.png"
-              alt=""
-              class="h-px absolute left-44 md:w-1/4 w-1/5 top-7 lg:block hidden"
-            />
-            <div class="md:mx-auto md:mb-0 mb-4">
-              <div
-                class="w-16 h-16 rounded-lg flex items-center justify-center mx-auto"
-                style="background-color: #eefcf5"
-              >
-                <img src="./assets/img/deal.png" alt="" class="w-2/3" />
-              </div>
-              <h1 class="text-lg text-center my-3 font-openSans-semiBold">
+            <div class="md:mx-auto xl:mb-0 mb-6">
+              <img src="./assets/img/service-deal.svg" alt="" class="mx-auto" />
+              <h1 class="text-3xl text-center my-3 font-openSans-semiBold">
                 Escrow
               </h1>
-              <p class="text-sm text-gray-400 text-center font-openSans">
+              <p class="text-lg text-gray-400 text-center font-openSans">
                 Escrow is responsible for making sure <br />
                 for financing a manufactured home <br />
                 or refinancing a mobile home
               </p>
             </div>
-            <img
-              src="./assets/img/line-r.png"
-              alt=""
-              class="h-px absolute right-44 md:w-1/4 w-1/5 top-7 lg:block hidden"
-            />
-            <div class="md:mb-0 mb-4">
-              <div
-                class="w-16 h-16 rounded-lg flex items-center justify-center mx-auto"
-                style="background-color: #fff5ef"
-              >
-                <img src="./assets/img/insurance.png" alt="" class="w-2/3" />
-              </div>
-              <h1 class="text-lg text-center my-3 font-openSans-semiBold">
+            <div class="xl:mb-0 mb-4 relative">
+              <img
+                src="./assets/img/line-right.svg"
+                alt=""
+                class="absolute right-3/4 w-full top-1/4 xl:block hidden"
+              />
+              <img
+                src="./assets/img/service-secure.svg"
+                alt=""
+                class="mx-auto"
+              />
+              <h1 class="text-3xl text-center my-3 font-openSans-semiBold">
                 Insurance
               </h1>
-              <p class="text-sm text-gray-400 text-center font-openSans">
+              <p class="text-lg text-gray-400 text-center font-openSans">
                 MH Services offers a variety of programs <br />
                 for financing a manufactured home <br />
                 or refinancing a mobile home
@@ -173,11 +210,11 @@
             </div>
           </div>
           <div class="w-full mt-20 rounded-xl flex flex-wrap contact-bg">
-            <div class="md:w-1/3 -mt-4">
+            <div class="lg:w-1/3 lg:-mt-4">
               <img src="./assets/img/phone.png" alt="" />
             </div>
             <div
-              class="md:w-2/3 md:pl-10 md:px-0 md:pb-0 pb-8 px-4 xl:pt-14 pt-8"
+              class="lg:w-2/3 lg:pl-10 lg:px-0 lg:pb-0 pb-8 px-4 xl:pt-14 pt-8"
             >
               <h1
                 class="text-white xl:text-5xl md:text-4xl text-2xl xl:leading-tight font-shippori-semiBold"
@@ -185,7 +222,7 @@
                 We're just a phone call away <br />
                 888 732 9099
               </h1>
-              <p class="font-openSans-light text-white xl:my-5 my-3 text-sm">
+              <p class="font-openSans text-white xl:my-5 my-3 text-xl">
                 Have a question? Give us a call or fill out our contact form for
                 <br />
                 a quick response
@@ -203,27 +240,26 @@
 
     <section class="park mb-20">
       <div
-        class="container py-10 md:rounded-r-3xl md:px-0 px-4"
-        style="background: #f3f7fe"
+        class="container py-10 md:rounded-r-3xl lg:px-0 px-4"
       >
         <div class="flex flex-wrap items-center">
-          <div class="md:w-1/3 w-full md:mb-0 mb-5">
-            <img src="./assets/img/home.png" alt="" class="w-full" />
+          <div class="lg:w-1/3 lg:order-first order-last w-full lg:mt-0 mt-5">
+            <img src="./assets/img/park-img.svg" alt="" class="w-full" />
           </div>
-          <div class="md:w-2/3 w-full md:pl-20 lg:pr-24 md:pr-16">
-            <p class="text-red-500 font-openSans text-xs">
+          <div class="lg:w-2/3 w-full lg:pl-20 lg:pr-24 md:pr-16">
+            <p class="red-color font-openSans text-LG">
               Manufactured home financing
             </p>
             <h1
-              class="md:text-4xl xl:text-5xl text-2xl font-shippori mt-2 mb-5"
+              class="md:text-4xl xl:text-6xl text-2xl font-shippori mt-2 mb-5"
             >
               Is your home in a park?
             </h1>
-            <p class="font-openSans-semiBold text-gray-700 text-sm mb-2">
+            <p class="font-openSans-semiBold text-lg my-4" style="color: #292929;">
               PERFECT! In park home financing is our field of expertise. A
               matter of fact, it's all we do.
             </p>
-            <p class="font-openSans text-gray-500 text-sm leading-loose">
+            <p class="font-openSans text-lg leading-relaxed" style="color: #292929;">
               We're also experts at finding the sweet spot between Google's
               guidelines and what is commercially right for you. We have
               progressive theories on search as a tool for retention of
@@ -245,35 +281,35 @@
       <div class="container ml-auto md:px-0 px-4">
         <div class="flex flex-wrap">
           <div class="md:w-2/3 w-full md:mb-0 mb-5">
-            <p class="text-red-500 font-openSans text-sm mb-2">
+            <p class="red-color font-openSans text-lg mb-2">
               California home only escrow
             </p>
-            <h1 class="xl:text-5xl md:text-4xl text-2xl font-shippori">
+            <h1 class="xl:text-6xl md:text-4xl text-2xl font-shippori">
               HCD Escrow Specialist
             </h1>
-            <p class="font-openSans text-gray-500 text-sm leading-loose my-5">
+            <p class="font-openSans black-color text-lg leading-relaxed my-5">
               We also provide Digital Marketing, SEO Services, Graphics Design.
-              We're also experts at finding the sweet spot between Google's
+              We're <br> also experts at finding the sweet spot between Google's
               guidelines
             </p>
             <div class="flex flex-wrap">
               <div class="md:w-1/3 w-full flex items-center mb-4">
-                <img src="./assets/img/checked.png" alt="" />
-                <p class="ml-3 font-openSans text-sm">On Time Closing</p>
+                <img src="./assets/img/checked.svg" alt="" />
+                <p class="ml-3 font-openSans text-lg">On Time Closing</p>
               </div>
               <div class="md:w-2/3 w-full flex items-center mb-4">
-                <img src="./assets/img/checked.png" alt="" />
-                <p class="ml-3 font-openSans text-sm">
+                <img src="./assets/img/checked.svg" alt="" />
+                <p class="ml-3 font-openSans text-lg">
                   We list your options by state
                 </p>
               </div>
               <div class="md:w-1/3 w-full flex items-center md:mb-0 mb-4">
-                <img src="./assets/img/checked.png" alt="" />
-                <p class="ml-3 font-openSans text-sm">One Company</p>
+                <img src="./assets/img/checked.svg" alt="" />
+                <p class="ml-3 font-openSans text-lg">One Company</p>
               </div>
               <div class="md:w-2/3 w-full flex items-center">
-                <img src="./assets/img/checked.png" alt="" />
-                <p class="ml-3 font-openSans text-sm">
+                <img src="./assets/img/checked.svg" alt="" />
+                <p class="ml-3 font-openSans text-lg">
                   Expert-created content and resources
                 </p>
               </div>
@@ -285,7 +321,7 @@
             </button>
           </div>
           <div class="md:w-1/3 w-full">
-            <img src="./assets/img/approved.jpg" alt="" />
+            <img src="./assets/img/approved.svg" alt="" />
           </div>
         </div>
       </div>
@@ -297,36 +333,36 @@
         style="background: #f3f7fe"
       >
         <div class="flex flex-wrap items-center">
-          <div class="md:w-1/3 w-full md:mb-0 mb-5 relative">
-            <img src="./assets/img/70.png" alt="" />
+          <div class="md:w-2/5 w-full md:mb-0 mb-5 relative">
+            <img src="./assets/img/invetment-img.svg" alt="" />
           </div>
-          <div class="md:w-2/3 w-full md:pl-20 lg:pr-24 md:pr-16">
-            <p class="text-red-500 font-openSans text-xs">
+          <div class="md:w-3/5 w-full md:pl-20 lg:pr-24 md:pr-16">
+            <p class="red-color font-openSans text-lg">
               Project your investment
             </p>
             <h1
-              class="xl:text-5xl md:text-4xl text-2xl font-shippori mt-2 mb-5 xl:leading-tight"
+              class="xl:text-6xl md:text-4xl text-2xl font-shippori mt-2 mb-5 xl:leading-tight"
             >
-              Can Life Coaching Help <br />
+              Can Life Coaching Help <br class="xl:block hidden"/>
               You?
             </h1>
             <p
-              class="font-openSans-semiBold text-gray-700 text-sm mb-2 leading-relaxed"
+              class="font-openSans-semiBold text-lg mb-2"
             >
               Life Coaching involves coaching and mentoring clients so they gain
-              a real <br />
+              a real <br class="xl:block hidden"/>
               understanding of how all human beings use their thoughts to create
               their reality.
             </p>
-            <p class="font-openSans text-gray-500 text-sm leading-relaxed">
+            <p class="font-openSans text-base leading-relaxed">
               We're also experts at finding the sweet spot between Google's
-              guidelines and what is <br />
+              guidelines and what is <br class="xl:block hidden"/>
               commercially right for you. We have progressive theories on search
-              as a tool for retention <br />
+              as a tool for retention <br class="xl:block hidden"/>
               of customers, not just for acquisition. We also provide Digital
-              Marketing, SEO Services, SMO Services, <br />
+              Marketing, SEO Services, SMO Services, <br class="xl:block hidden"/>
               Graphics Design. We're alos experts at finding the sweet spot
-              between <br />
+              between <br class="xl:block hidden"/>
               Google's guidlines.
             </p>
             <button
@@ -342,25 +378,25 @@
     <section class="cards mb-20">
       <div class="container mx-auto lg:px-0 px-4">
         <div class="flex flex-wrap justify-center">
-          <div class="lg:w-1/4 w-full lg:mb-0 mb-4 lg:pr-6 pr-0">
+          <div class="lg:w-1/3 w-full lg:mb-0 mb-4 lg:pr-6 pr-0">
             <div class="shadow-lg rounded-2xl">
               <img
-                src="./assets/img/card1.jpg"
+                src="./assets/img/card1.svg"
                 alt=""
-                class="rounded-t-2xl h-60 w-full"
+                class="rounded-t-2xl w-full"
               />
               <div class="px-6 pb-8 relative">
                 <img
-                  src="./assets/img/dollar-icon.png"
+                  src="./assets/img/dollar-icon.svg"
                   alt=""
-                  class="w-16 mb-2 absolute"
+                  class="w-16 mb-2 absolute -mt-1"
                   style="top: -70px"
                 />
-                <p class="text-lg uppercase font-openSans-semiBold mt-10">
+                <p class="text-2xl uppercase font-openSans-semiBold mt-10">
                   financing
                 </p>
                 <p
-                  class="font-openSans text-gray-500 text-xs leading-relaxed mb-4 mt-2"
+                  class="font-openSans text-lg leading-relaxed mb-4 mt-2"
                 >
                   Life Coaching involves coaching and mentoring cleints so they
                   gain a real understanding of how all human beings use their
@@ -369,68 +405,68 @@
                 <button
                   class="px-6 py-3 flex items-center border border-red-500 rounded-md"
                 >
-                  <span class="font-openSans-semiBold text-xs mr-3"
+                  <span class="font-openSans-bold text-lg mr-3"
                     >Apply now</span
                   >
-                  <img src="./assets/img/right-arrow.png" alt="" />
+                  <img src="./assets/img/right-arrow.svg" alt="" />
                 </button>
               </div>
             </div>
           </div>
-          <div class="lg:w-1/4 w-full lg:mb-0 mb-4 lg:px-6 px-0">
-            <div class="shadow-lg rounded-2xl">
+          <div class="lg:w-1/3 w-full lg:mb-0 mb-4 lg:px-6 px-0">
+            <div class="shadow-lg rounded-2xl pb-4">
               <img
-                src="./assets/img/card2.jpg"
+                src="./assets/img/card2.svg"
                 alt=""
-                class="rounded-t-2xl h-60 w-full"
+                class="rounded-t-2xl w-full"
               />
               <div class="pl-6 pb-8 relative">
                 <img
-                  src="./assets/img/deal-icon.png"
+                  src="./assets/img/deal-icon.svg"
                   alt=""
-                  class="w-16 mb-2 absolute"
+                  class="w-16 mb-2 absolute -mt-1"
                   style="top: -70px"
                 />
-                <p class="text-lg uppercase font-openSans-semiBold mt-10">
+                <p class="text-2xl uppercase font-openSans-semiBold mt-10">
                   escrow
                 </p>
                 <p
-                  class="font-openSans text-gray-500 text-xs leading-relaxed mb-4 mt-2"
+                  class="font-openSans0 text-lg leading-relaxed mb-4 mt-2"
                 >
                   Life Coaching involves coaching and mentoring cleints so they
                   gain a real understanding of how all human beings use their
-                  thoughts to creaet their reality
+                  thoughts to creaet their <br> reality
                 </p>
                 <button
                   class="px-6 py-3 flex items-center border border-red-500 rounded-md"
                 >
-                  <span class="font-openSans-semiBold text-xs mr-3"
+                  <span class="font-openSans-bold text-lg mr-3"
                     >Open escrow</span
                   >
-                  <img src="./assets/img/right-arrow.png" alt="" />
+                  <img src="./assets/img/right-arrow.svg" alt="" />
                 </button>
               </div>
             </div>
           </div>
-          <div class="lg:w-1/4 w-full lg:mb-0 mb-4 lg:pl-6 px-0">
+          <div class="lg:w-1/3 w-full lg:mb-0 mb-4 lg:pl-6">
             <div class="shadow-lg rounded-2xl">
               <img
-                src="./assets/img/card3.jpg"
+                src="./assets/img/card3.svg"
                 alt=""
-                class="rounded-t-2xl h-60 w-full"
+                class="rounded-t-2xl w-full"
               />
               <div class="px-6 pb-8 relative">
                 <img
-                  src="./assets/img/insurance-icon.png"
+                  src="./assets/img/insurance-icon.svg"
                   alt=""
-                  class="w-16 mb-2 absolute"
+                  class="w-16 mb-2 absolute -mt-1"
                   style="top: -70px"
                 />
-                <p class="text-lg uppercase font-openSans-semiBold mt-10">
+                <p class="text-2xl uppercase font-openSans-semiBold mt-10">
                   insurance
                 </p>
                 <p
-                  class="font-openSans text-gray-500 text-xs leading-relaxed mb-4 mt-2"
+                  class="font-openSans text-lg leading-relaxed mb-4 mt-2"
                 >
                   Life Coaching involves coaching and mentoring cleints so they
                   gain a real understanding of how all human beings use their
@@ -439,10 +475,10 @@
                 <button
                   class="px-6 py-3 flex items-center border border-red-500 rounded-md"
                 >
-                  <span class="font-openSans-semiBold text-xs mr-3"
+                  <span class="font-openSans-bold text-lg mr-3"
                     >Get a quote</span
                   >
-                  <img src="./assets/img/right-arrow.png" alt="" />
+                  <img src="./assets/img/right-arrow.svg" alt="" />
                 </button>
               </div>
             </div>
@@ -455,7 +491,7 @@
       <div class="container mx-auto py-12 lg:px-0 px-4">
         <div class="flex flex-wrap">
           <div class="md:w-1/5 w-full">
-            <img src="./assets/img/mh-services-logo-bottom.png" alt="" />
+            <img src="./assets/img/logo-white.svg" alt="" />
           </div>
           <div class="lg:w-1/6 w-full lg:my-0 my-6">
             <ul>
@@ -494,7 +530,7 @@
           <div class="lg:w-1/5 w-full lg:my-0 my-6">
             <div class="flex items-start">
               <div class="w-10">
-                <img src="./assets/img/home-icon.png" alt="" class="mt-2" />
+                <img src="./assets/img/home-icon.svg" alt="" class="mt-2" />
               </div>
               <p class="text-white font-openSans-semiBold">
                 2244 Faraday Avenue Suite 92 <br />Carlsbad, CA 92008
@@ -502,13 +538,13 @@
             </div>
             <div class="flex items-center my-4">
               <div class="w-10">
-                <img src="./assets/img/phone-icon.png" alt="" class="mt-2" />
+                <img src="./assets/img/footer-phone-icon.svg" alt="" class="mt-2" />
               </div>
               <p class="text-white font-openSans-semiBold">888-732-9099</p>
             </div>
             <div class="flex items-center">
               <div class="w-10">
-                <img src="./assets/img/email-icon.png" alt="" class="mt-2" />
+                <img src="./assets/img/footer-mail-icon.svg" alt="" class="mt-2" />
               </div>
               <p class="text-white font-openSans-semiBold">
                 info@mhservices.com
@@ -519,9 +555,9 @@
             <p class="text-white font-openSans-semiBold text-center">
               Proud member:
             </p>
-            <div class="flex mt-6 justify-center">
-              <img src="./assets/img/bbb-white.png" alt="" class="mr-6" />
-              <img src="./assets/img/cea.png" alt="" />
+            <div class="flex xl:flex-nowrap flex-wrap mt-6 justify-center">
+              <img src="./assets/img/member1.svg" alt="" class="mr-6 xl:mx-0 mx-auto xl:mb-0 mb-5" />
+              <img src="./assets/img/member2.svg" alt="" class="xl:mx-0 mx-auto"/>
             </div>
           </div>
         </div>
