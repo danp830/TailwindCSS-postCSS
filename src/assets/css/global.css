@@ -121,6 +121,10 @@
   background: url("../img/finance-bg.svg") center / cover no-repeat;
 }
 
+.insurance-bg {
+  background: url("../img/insurance-bg.svg") center / cover no-repeat;
+}
+
 .mob-home-bg {
   background: none;
 }
@@ -160,6 +164,12 @@
 
 .blue-gradient {
   background: -webkit-linear-gradient(#50c6fd, #368fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.green-gradient {
+  background: -webkit-linear-gradient(#6aefb2, #51c789);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
