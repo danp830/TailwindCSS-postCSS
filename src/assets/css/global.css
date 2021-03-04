@@ -1,53 +1,53 @@
 @font-face {
-    font-family: 'OpenSans-Regular';
-    src: url('../fonts/OpenSans-Regular_0.ttf') format('truetype')
+  font-family: "OpenSans-Regular";
+  src: url("../fonts/OpenSans-Regular_0.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'OpenSans-Light';
-    src: url('../fonts/OpenSans-Regular_0.ttf') format('truetype');
-    font-weight: 200;
+  font-family: "OpenSans-Light";
+  src: url("../fonts/OpenSans-Regular_0.ttf") format("truetype");
+  font-weight: 200;
 }
 
 @font-face {
-    font-family: 'OpenSans-Bold';
-    src: url('../fonts/OpenSans-Bold_0.ttf') format('truetype');;
-    font-weight: 900
+  font-family: "OpenSans-Bold";
+  src: url("../fonts/OpenSans-Bold_0.ttf") format("truetype");
+  font-weight: 900;
 }
 
 @font-face {
-    font-family: 'OpenSans-Semibold';
-    src: url('../fonts/OpenSans-SemiBold_0.ttf') format('truetype');;
-    font-weight: 700;
+  font-family: "OpenSans-Semibold";
+  src: url("../fonts/OpenSans-SemiBold_0.ttf") format("truetype");
+  font-weight: 700;
 }
 
 @font-face {
-    font-family: 'ShipporiMincho-Regular';
-    src: url('../fonts/ShipporiMincho-Regular.ttf') format('truetype');
+  font-family: "ShipporiMincho-Regular";
+  src: url("../fonts/ShipporiMincho-Regular.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'ShipporiMincho-Medium';
-    src: url('../fonts/ShipporiMincho-Medium.ttf') format('truetype');
-    font-weight: 500;
+  font-family: "ShipporiMincho-Medium";
+  src: url("../fonts/ShipporiMincho-Medium.ttf") format("truetype");
+  font-weight: 500;
 }
 
 @font-face {
-    font-family: 'ShipporiMincho-SemiBold';
-    src: url('../fonts/ShipporiMincho-SemiBold.ttf') format('truetype');
-    font-weight: 700;
+  font-family: "ShipporiMincho-SemiBold";
+  src: url("../fonts/ShipporiMincho-SemiBold.ttf") format("truetype");
+  font-weight: 700;
 }
 
 @font-face {
-    font-family: 'ShipporiMincho-Bold';
-    src: url('../fonts/ShipporiMincho-Bold.ttf') format('truetype');
-    font-weight: 900;
+  font-family: "ShipporiMincho-Bold";
+  src: url("../fonts/ShipporiMincho-Bold.ttf") format("truetype");
+  font-weight: 900;
 }
 
 @font-face {
-    font-family: 'ShipporiMincho-ExtraBold';
-    src: url('../fonts/ShipporiMincho-ExtraBold.ttf') format('truetype');
-    font-weight: bolder;
+  font-family: "ShipporiMincho-ExtraBold";
+  src: url("../fonts/ShipporiMincho-ExtraBold.ttf") format("truetype");
+  font-weight: bolder;
 }
 
 /* body {
@@ -57,83 +57,124 @@
 /* Some helper classes */
 
 .font-openSans {
-    font-family: 'OpenSans-Regular', serif;
+  font-family: "OpenSans-Regular", serif;
 }
 
 .font-openSans-light {
-    font-family: 'OpenSans-Light', serif;
+  font-family: "OpenSans-Light", serif;
 }
 
 .font-openSans-bold {
-    font-family: 'OpenSans-Bold', serif;
+  font-family: "OpenSans-Bold", serif;
 }
 
 .font-openSans-semiBold {
-    font-family: 'OpenSans-SemiBold', serif;
+  font-family: "OpenSans-SemiBold", serif;
 }
 
 .font-shippori {
-    font-family: 'ShipporiMincho-Regular', serif;
+  font-family: "ShipporiMincho-Regular", serif;
 }
 
 .font-shippori-medium {
-    font-family: 'ShipporiMincho-Medium', serif;
+  font-family: "ShipporiMincho-Medium", serif;
 }
 
 .font-shippori-semiBold {
-    font-family: 'ShipporiMincho-SemiBold', serif;
+  font-family: "ShipporiMincho-SemiBold", serif;
 }
 
 .font-shippori-bold {
-    font-family: 'ShipporiMincho-Bold', serif;
+  font-family: "ShipporiMincho-Bold", serif;
 }
 
 .font-shippori-extraBold {
-    font-family: 'ShipporiMincho-ExtraBold', serif;
+  font-family: "ShipporiMincho-ExtraBold", serif;
 }
 
 .contact-bg {
-    background: url('../img/services-bg.svg') no-repeat center /cover;
+  background: url("../img/services-bg.svg") no-repeat center / cover;
 }
 
 .contact-btn {
-    background: linear-gradient(to left, #f0072f, #f9413f);
+  background: linear-gradient(to left, #f0072f, #f9413f);
 }
 
 .primary-btn {
-    background: linear-gradient(to bottom, #4256ac, #2b3c93);
+  background: linear-gradient(to bottom, #4256ac, #2b3c93);
 }
 
 .footer {
-    background: url('../img/footer-bg.svg') center /cover no-repeat;
-    background-position-y: 0;
+  background: url("../img/footer-bg.svg") center / cover no-repeat;
+  background-position-y: 0;
 }
 
 .home-bg {
-    background: url('../img/bg-red.svg') center /cover no-repeat;
+  background: url("../img/bg-red.svg") center / cover no-repeat;
+}
+
+.about-bg {
+  background: url("../img/about-bg.svg") center / cover no-repeat;
+}
+
+.finance-bg {
+  background: url("../img/finance-bg.svg") center / cover no-repeat;
 }
 
 .mob-home-bg {
-    background: none;
+  background: none;
 }
 
 @media only screen and (max-width: 1023px) {
-    .mob-home-bg {
-        background: url('../img/bg-red.svg') center /cover no-repeat !important;
-    }
-    .blue-color {
-        color: #fff !important;
-    }
+  .mob-home-bg {
+    background: url("../img/bg-red.svg") center / cover no-repeat !important;
+  }
+  .blue-color {
+    color: #fff !important;
+  }
 }
 
 .blue-color {
-    color: #2b3c93
+  color: #2b3c93;
 }
 
 .red-color {
-    color: #F42437; 
+  color: #f42437;
 }
 
 .black-color {
-    color: #292929;
+  color: #292929;
+}
+
+.dark-blue {
+  color: #263787;
+}
+
+.dark-blue-border {
+  border-color: #263787;
+}
+
+.nav-shadow {
+  box-shadow: 0px 4px 20px rgba(0, 86, 173, 0.06);
+}
+
+.blue-gradient {
+  background: -webkit-linear-gradient(#50c6fd, #368fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.finance-card-bg {
+  background: #f3f7fe;
+}
+
+.bg-dark-blue {
+  background: #4255ab;
+}
+.dark-blue-color {
+  color: #293991;
+}
+
+.finance-cardShadow {
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.07);
 }
