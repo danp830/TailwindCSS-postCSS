@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/global.css" />
+    <title>Contact Page</title>
+  </head>
+  <body>
+    <header class="nav-shadow xl:pl-10">
+      <nav
+        class="flex items-center bg-red-white py-5 container mx-auto xl:pl-20 lg:px-0 px-5"
+      >
+        <a href="./index.html">
+          <img src="./assets/img/logo2.svg" alt="" />
+        </a>
+
+        <div class="xl:mx-20 lg:block hidden">
+          <ul class="flex">
+            <li class="inline mx-8 text-lg font-openSans">
+              <a href="./about.html">About</a>
+            </li>
+            <li class="inline mr-8 text-lg font-openSans">
+              <a href="./finances.html">Financing</a>
+            </li>
+            <li class="inline mr-8 text-lg font-openSans">
+              <a href="./insurance.html">Insurance</a>
+            </li>
+            <li class="inline mr-8 text-lg font-openSans">
+              <a href="./escrow.html">Escrow</a>
+            </li>
+            <li class="inline mr-8 text-lg font-openSans">
+              <a href="#">Loan status</a>
+            </li>
+            <li class="inline mr-8 text-lg font-openSans">
+              <a href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="lg:flex hidden items-center">
+          <img src="./assets/img/phone-icon2.svg" alt="" />
+          <p class="font-openSans-semiBold mx-6 text-xl">888 732 9099</p>
+          <button
+            class="px-8 py-2 rounded-md text-white font-openSans-semiBold primary-btn text-base"
+          >
+            Online application
+          </button>
+        </div>
+        <button
+          class="bg-transparent outline-none focus:outline-none lg:hidden block ml-auto"
+        >
+          <span class="block bg-black w-8 h-1"></span>
+          <span class="block bg-black w-8 h-1 my-1"></span>
+          <span class="block bg-black w-8 h-1"></span>
+        </button>
+      </nav>
+    </header>
+
+    <section class="banner mb-28">
+      <div class="flex lg:flex-nowrap flex-wrap">
+        <div class="lg:w-3/4 w-full xl:pl-72 xl:pt-16 relative xl:p-0 p-4">
+          <img
+            src="./assets/img/about-effect.svg"
+            alt=""
+            class="absolute top-0 left-0"
+            style="z-index: -1"
+          />
+          <p class="red-color text-lg font-openSans mb-4">Have a question?</p>
+          <h1
+            class="lg:text-6xl md:text-4xl text-2xl font-shippori-semiBold mb-4 pb-2"
+          >
+            Contact Us or
+          </h1>
+          <h1
+            class="lg:text-6xl md:text-4xl text-2xl font-shippori-semiBold lg:mb-40 mb-4 -mt-3"
+          >
+            Come to Our Office
+          </h1>
+
+          <div class="md:w-4/5 w-full flex flex-wrap">
+            <div class="md:w-1/2 w-full md:mb-0 mb-5">
+              <h1 class="dark-blue-color font-openSans-bold text-lg">
+                Our address
+              </h1>
+              <div class="w-11/12 h-px bg-dark-blue mt-2 mb-5"></div>
+              <div class="flex items-start w-11/12">
+                <img src="./assets/img/home-icon.svg" alt="" />
+                <p class="font-openSans-semiBold black-color ml-5 text-xl">
+                  2244 Faraday Avenue Suite 92 Carlsbad, CA 92008
+                </p>
+              </div>
+            </div>
+            <div class="md:w-1/2 w-full md:mb-0 mb-5">
+              <h1 class="dark-blue-color font-openSans-bold text-lg">
+                Call us or send email
+              </h1>
+              <div class="w-11/12 h-px bg-dark-blue mt-2 mb-5"></div>
+              <div class="flex flex-wrap items-start w-11/12">
+                <div class="w-full flex items-center mb-5">
+                  <img src="./assets/img/footer-phone-icon.svg" alt="" />
+                  <p class="font-openSans-semiBold black-color ml-5 text-xl">
+                    888-732-9099
+                  </p>
+                </div>
+                <div class="w-full flex items-center">
+                  <img src="./assets/img/footer-mail-icon.svg" alt="" />
+                  <p class="font-openSans-semiBold black-color ml-5 text-xl">
+                    info@mhservices.com
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/2 w-full contact-bg flex items-center xl:px-0 px-4 lg:py-20 py-4">
+          <form class="rounded-2xl bg-white md:w-4/6 w-full p-10 shadow-xl mx-auto 
+           xl:-ml-16 flex flex-col justify-center" style="max-height: 586px;">
+              <div>
+                  <label for="name" class="block font-openSans-bold text-xs uppercase mb-2">full name</label>
+                  <input type="text"id="name" class="w-full border rounded px-5 py-2 text-sm mb-4 focus:outline-none light-border contact-input">
+              </div>
+              <div>
+                <label for="email" class="block font-openSans-bold text-xs uppercase mb-2">email address</label>
+                <input type="email"id="email" class="w-full border rounded px-5 py-2 mb-4 focus:outline-none contact-input light-border ">
+            </div>
+            <div>
+                <label for="phone" class="block font-openSans-bold text-xs uppercase mb-2">phone</label>
+                <input type="text"id="phone" class="w-full border rounded px-5 py-2 mb-4 focus:outline-none contact-input light-border ">
+            </div>
+            <div>
+                <label for="phone" class="block font-openSans-bold text-xs uppercase mb-2">your question</label>
+                <textarea name="question" id="question"  rows="3" class="w-full border focus:outline-none rounded contact-input px-5 py-2 light-border "></textarea>
+            </div>
+            <button
+            class="px-6 py-2 rounded-md text-white font-openSans-semiBold primary-btn mt-8 mb-4 mx-auto block "
+          >
+            &bull;<span class="mx-2 uppercase text-sm">apply now</span>&bull;
+          </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container mx-auto py-12 lg:px-0 px-4">
+        <div class="flex flex-wrap">
+          <div class="md:w-1/5 w-full">
+            <img src="./assets/img/logo-white.svg" alt="" />
+          </div>
+          <div class="lg:w-1/6 w-full lg:my-0 my-6">
+            <ul>
+              <li class="mb-2">
+                <a href="#" class="font-openSans text-white">Home</a>
+              </li>
+              <li class="mb-2">
+                <a href="#" class="font-openSans text-white"
+                  >Loan Application</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="font-openSans text-white">About</a>
+              </li>
+              <li>
+                <a href="#" class="font-openSans text-white">Financing</a>
+              </li>
+            </ul>
+          </div>
+          <div class="lg:w-1/6 w-full">
+            <ul>
+              <li class="mb-2">
+                <a href="#" class="font-openSans text-white">Escrow</a>
+              </li>
+              <li class="mb-2">
+                <a href="#" class="font-openSans text-white">Contact</a>
+              </li>
+              <li class="mb-2">
+                <a href="#" class="font-openSans text-white">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="#" class="font-openSans text-white">We on Facebook</a>
+              </li>
+            </ul>
+          </div>
+          <div class="lg:w-1/5 w-full lg:my-0 my-6">
+            <div class="flex items-start">
+              <div class="w-10">
+                <img src="./assets/img/home-icon.svg" alt="" class="mt-2" />
+              </div>
+              <p class="text-white font-openSans-semiBold">
+                2244 Faraday Avenue Suite 92 <br />Carlsbad, CA 92008
+              </p>
+            </div>
+            <div class="flex items-center my-4">
+              <div class="w-10">
+                <img
+                  src="./assets/img/footer-phone-icon.svg"
+                  alt=""
+                  class="mt-2"
+                />
+              </div>
+              <p class="text-white font-openSans-semiBold">888-732-9099</p>
+            </div>
+            <div class="flex items-center">
+              <div class="w-10">
+                <img
+                  src="./assets/img/footer-mail-icon.svg"
+                  alt=""
+                  class="mt-2"
+                />
+              </div>
+              <p class="text-white font-openSans-semiBold">
+                info@mhservices.com
+              </p>
+            </div>
+          </div>
+          <div class="lg:w-1/5 w-full">
+            <p class="text-white font-openSans-semiBold text-center">
+              Proud member:
+            </p>
+            <div class="flex xl:flex-nowrap flex-wrap mt-6 justify-center">
+              <img
+                src="./assets/img/member1.svg"
+                alt=""
+                class="mr-6 xl:mx-0 mx-auto xl:mb-0 mb-5"
+              />
+              <img
+                src="./assets/img/member2.svg"
+                alt=""
+                class="xl:mx-0 mx-auto"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="bg-black py-2">
+      <div class="container">
+        <div class="flex flex-wrap items-center">
+          <div class="md:w-1/2 w-full text-center md:mb-0 mb-3">
+            <p class="text-white font-openSans-semiBold md:text-sm text-xs">
+              Copyright &copy; 2021 MH Services Corporation. All Rights
+              Reserved.
+            </p>
+          </div>
+          <div class="md:w-1/2 w-full text-center">
+            <p class="text-white font-openSans-semiBold md:text-sm text-xs">
+              NMLS Mortgage Licesnsing 296451 | BRE Licesnsing 01946484 | Equal
+              Housing Opportunity Participant
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+     
+  </body>
+</html>
