@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form 3</title>
+    <link href="./assets/css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/global.css" />
+  </head>
+  <body>
+    <header class="nav-shadow xl:pl-10">
+      <nav
+        class="flex items-center bg-red-white py-5 container mx-auto xl:pl-20 lg:px-0 px-5"
+      >
+        <a href="./index.html">
+          <img src="./assets/img/logo2.svg" alt="" />
+        </a>
+
+        <div class="xl:mx-20 lg:block hidden">
+          <ul class="flex">
+            <li class="inline mx-8 text-lg font-openSans">
+              <a href="./about.html">About</a>
+            </li>
+            <li class="inline mr-8 text-lg font-openSans">
+              <a href="./finances.html">Financing</a>
+            </li>
+            <li class="inline mr-8 text-lg font-openSans">
+              <a href="./insurance.html">Insurance</a>
+            </li>
+            <li class="inline mr-8 text-lg font-openSans">
+              <a href="./escrow.html">Escrow</a>
+            </li>
+            <li class="inline mr-8 text-lg font-openSans">
+              <a href="#">Loan status</a>
+            </li>
+            <li class="inline mr-8 text-lg font-openSans">
+              <a href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="lg:flex hidden items-center">
+          <img src="./assets/img/phone-icon2.svg" alt="" />
+          <p class="font-openSans-semiBold mx-6 text-xl">888 732 9099</p>
+          <button
+            class="px-8 py-2 rounded-md text-white font-openSans-semiBold primary-btn text-base"
+          >
+            Online application
+          </button>
+        </div>
+        <button
+          class="bg-transparent outline-none focus:outline-none lg:hidden block ml-auto"
+        >
+          <span class="block bg-black w-8 h-1"></span>
+          <span class="block bg-black w-8 h-1 my-1"></span>
+          <span class="block bg-black w-8 h-1"></span>
+        </button>
+      </nav>
+    </header>
+
+    <!-- Form content -->
+    <section class="form-area min-h-screen">
+      <div class="flex flex-wrap">
+        <div
+          class="lg:w-1/3 lg:block flex items-center justify-center w-full min-h-screen relative lg:px-0 px-4"
+          style="background-color: #f3f7fe"
+        >
+          <img src="./assets/img/form-step-3.svg" alt="" class="lg:absolute lg:right-10 lg:top-32">
+        </div>
+        <div class="lg:w-2/3 w-full min-h-screen">
+          <!-- Heading -->
+          <div class="mx-auto text-center mt-12">
+            <h1
+              class="font-shippori-bold uppercase lg:text-4xl md:text-2xl text-xl md:mx-0"
+            >
+              mh loans secure online application
+            </h1>
+          </div>
+
+          <!-- form -->
+          <form class="mt-8 lg:ml-28 mx-4 mb-10">
+            <!-- Home Information -->
+            <div class="mt-16 border-b pb-5 lg:w-4/5">
+              <h2 class="font-openSans-bold text uppercase md:text-2xl text-lg">
+                Home Information
+              </h2>
+            </div>
+            <div>
+              <div>
+                <input
+                  type="text"
+                  class="lg:w-60 w-full border-b border-color inline-block font-openSans-light mt-6 lg:ml-6 py-2 focus:outline-none"
+                  placeholder="Make"
+                  required
+                />
+                <input
+                  type="text"
+                  class="lg:w-60 w-full border-b border-color inline-block font-openSans-light mt-6 lg:ml-6 py-2 focus:outline-none"
+                  placeholder="Model"
+                  required
+                />
+              </div>
+              <p class="mt-8 lg:mb-0 -mb-6 lg:ml-6 font-openSans-light">Home Size (feet)</p>
+              <div class="flex flex-wrap items-end">
+                <input
+                  type="text"
+                  class="w-28 border-b border-color inline-block font-openSans-light mt-6 lg:ml-6 py-2 focus:outline-none"
+                  placeholder=""
+                  required
+                />
+                <span class="lg:mx-6 mx-2">X</span>
+                <input
+                  type="text"
+                  class="w-28 border-b border-color inline-block font-openSans-light mt-6 py-2 focus:outline-none"
+                  placeholder=""
+                  required
+                />
+                <select
+                  class="lg:ml-12 lg:w-60 w-full border-b border-color inline-block font-openSans-light mt-6 py-2 focus:outline-none"
+                >
+                  <option>Year Home Built</option>
+                  <option>2001</option>
+                  <option>2002</option>
+                  <option>2003</option>
+                  <option>2004</option>
+                </select>
+              </div>
+
+              <div class="flex flex-wrap mt-10 items-center">
+                <div class="w-full flex flex-wrap mb-10">
+                  <p class="font-openSans-light">
+                    Will this be your primary residence?
+                  </p>
+                  <select
+                    class="lg:ml-8 lg:w-60 w-full border-b border-color inline-block font-openSans-light py-2 -mt-5 focus:outline-none"
+                  >
+                    <option></option>
+                    <option>yes</option>
+                    <option>no</option>
+                  </select>
+                </div>
+                <div class="w-full flex flex-wrap">
+                  <p class="font-openSans-light">
+                    If Non-Owner Occupied Please Select Use of Home
+                  </p>
+                  <select
+                    class="lg:ml-8 lg:w-60 w-full border-b border-color inline-block font-openSans-light py-2 -mt-5 focus:outline-none"
+                  >
+                    <option></option>
+                    <option>yes</option>
+                    <option>no</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <!-- Credit Information For All Application -->
+            <div class="mt-16 border-b pb-5 lg:w-4/5">
+              <h2 class="font-openSans-bold text uppercase md:text-2xl text-lg">
+                THIS HOME IS LOCATED
+              </h2>
+            </div>
+            <div class="flex flex-wrap mt-10 items-center">
+              <div class="w-full flex flex-wrap">
+                <p class="font-openSans-light">
+                  In a Park, Leased Land, or Family Land
+                </p>
+                <select
+                  class="lg:ml-8 lg:w-60 w-full border-b border-color inline-block font-openSans-light py-2 -mt-5 focus:outline-none"
+                >
+                  <option></option>
+                  <option>yes</option>
+                  <option>no</option>
+                </select>
+              </div>
+              <div class="w-full flex flex-wrap my-10">
+                <p class="font-openSans-light">
+                  If on Family Land please give relationship
+                </p>
+                <select
+                  class="lg:ml-8 lg:w-60 w-full border-b border-color inline-block font-openSans-light py-2 -mt-5 focus:outline-none"
+                >
+                  <option></option>
+                  <option>yes</option>
+                  <option>no</option>
+                </select>
+              </div>
+              <div class="w-full flex flex-wrap items-center">
+                <p class="font-openSans-light border-b pb-2 mr-6">
+                  Park Name (If lease Land leave Blank)
+                </p>
+                <div class="flex items-center">
+                  <span class="font-openSans-light">$</span>
+                  <input
+                    type="text"
+                    class="lg:w-60 w-3/4 border-b border-color font-openSans-light ml-4 py-2 focus:outline-none"
+                    placeholder="Space / Lot Rent Monthly"
+                    required
+                  />
+                  <span class="font-openSans-light lg:ml-4 ml-2">.00</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-16 border-b pb-5 lg:w-4/5">
+              <h2 class="font-openSans-bold text uppercase md:text-2xl text-lg">
+                PURCHASE INFORMATION
+              </h2>
+            </div>
+            <div class="flex flex-wrap mt-10 items-center">
+              <div class="w-full flex flex-wrap items-center">
+                <div class="flex lg:items-center">
+                  <span class="font-openSans-light flex items-end">$</span>
+                  <input
+                    type="text"
+                    class="lg:w-60 w-3/4 border-b border-color font-openSans-light ml-4 py-2 focus:outline-none"
+                    placeholder="Other Income Amount"
+                    required
+                  />
+                  <span class="font-openSans-light lg:ml-4 ml-2 flex items-end">.00</span>
+                </div>
+                <div class="flex items-center lg:ml-10 lg:mt-0 mt-10">
+                  <span class="font-openSans-light flex items-end">$</span>
+                  <input
+                    type="text"
+                    class="lg:w-60 w-3/4 border-b border-color font-openSans-light ml-4 py-2 focus:outline-none"
+                    placeholder="Other Income Amount"
+                    required
+                  />
+                  <span class="font-openSans-light lg:ml-4 ml-2 flex items-end">.00</span>
+                </div>
+              </div>
+              <div class="w-full flex flex-wrap my-10">
+                <p class="font-openSans-light">
+                  Do you have a signed purchased agreement?
+                </p>
+                <select
+                  class="lg:ml-8 lg:w-60 w-full border-b border-color inline-block font-openSans-light py-2 -mt-5 focus:outline-none"
+                >
+                  <option></option>
+                  <option>yes</option>
+                  <option>no</option>
+                </select>
+              </div>
+              <div class="w-full flex flex-wrap">
+                <p class="font-openSans-light">
+                  Do you have a earnest money deposit on this home
+                </p>
+                <select
+                  class="lg:ml-8 lg:w-60 w-full border-b border-color inline-block font-openSans-light py-2 -mt-5 focus:outline-none"
+                >
+                  <option></option>
+                  <option>yes</option>
+                  <option>no</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="mt-16 border-b pb-5 lg:w-4/5">
+              <h2 class="font-openSans-bold text uppercase md:text-2xl text-lg">
+                ADDRESS OF HOME YOUR ARE PURCHASING
+              </h2>
+            </div>
+            <div>
+              <input
+                type="text"
+                class="lg:w-96 sm:w-4/6 w-full border-b border-color lg:inline-block block font-openSans-light text-xs mt-6 lg:ml-6 sm:ml-2 py-2 focus:outline-none"
+                placeholder="Address"
+                required
+              />
+              <input
+                type="text"
+                class="lg:w-60 sm:w-4/6 w-full border-b border-color inline-block font-openSans-light text-xs mt-6 lg:ml-6 sm:ml-2 py-2 focus:outline-none"
+                placeholder="Space Number"
+                required
+              />
+            </div>
+            <div>
+              <input
+                type="text"
+                class="lg:w-96 sm:w-4/6 w-full border-b border-color inline-block font-openSans-light text-xs mt-6 lg:ml-6 sm:ml-2 py-2 focus:outline-none"
+                placeholder="City"
+                required
+              />
+              <select
+                class="lg:ml-8 lg:w-60 w-full border-b border-color inline-block font-openSans-light py-2 -mt-5 focus:outline-none"
+                placeholder=""
+                required
+              >
+                <option>State</option>
+                <option>Canada</option>
+                <option>China</option>
+                <option>India</option>
+              </select>
+              <input
+                type="text"
+                class="lg:w-24 sm:w-4/6 w-full border-b border-color inline-block font-openSans-light text-xs mt-6 lg:ml-6 sm:ml-2 py-2 focus:outline-none"
+                placeholder="Zip"
+                required
+              />
+            </div>
+
+            <div class="mt-16 border-b pb-5 lg:w-4/5">
+              <h2 class="font-openSans-bold text uppercase md:text-2xl text-lg">
+                CURRENT RESIDENCE INFORMATION
+              </h2>
+            </div>
+            <div class="w-full flex flex-wrap my-10">
+              <p class="font-openSans-light">Do you rent on Own?</p>
+              <select
+                class="lg:ml-8 lg:w-60 w-full border-b border-color inline-block font-openSans-light py-2 -mt-5 focus:outline-none"
+              >
+                <option></option>
+                <option>yes</option>
+                <option>no</option>
+              </select>
+            </div>
+            <div class="flex items-center">
+              <span class="font-openSans-light -mb-5">$</span>
+              <input
+                type="text"
+                class="lg:w-60 w-3/4 border-b border-color font-openSans-light ml-2 py-2 focus:outline-none"
+                placeholder="If yes, Your Rent amount"
+                required
+              />
+              <span class="font-openSans-light lg:ml-4 -mb-5 ml-2">.00</span>
+            </div>
+            <div class="w-full flex flex-wrap my-10">
+              <p class="font-openSans-light">
+                If you own what do you plan to do with current home
+              </p>
+              <select
+                class="lg:ml-8 lg:w-60 w-full border-b border-color inline-block font-openSans-light py-2 -mt-5 focus:outline-none"
+              >
+                <option></option>
+                <option>yes</option>
+                <option>no</option>
+              </select>
+            </div>
+            <div class="w-full flex flex-wrap">
+              <p class="font-openSans-light">If for sale what us the status</p>
+              <select
+                class="lg:ml-8 lg:w-60 w-full border-b border-color inline-block font-openSans-light py-2 -mt-5 focus:outline-none"
+              >
+                <option></option>
+                <option>yes</option>
+                <option>no</option>
+              </select>
+            </div>
+            <div class="mt-16 border-b pb-5 lg:w-4/5">
+              <h2 class="font-openSans-bold text uppercase md:text-2xl text-lg">
+                HOW DID YOU HEAR ABOUT US?
+              </h2>
+            </div>
+            <div class="w-full flex flex-wrap my-10">
+              <p class="font-openSans-light">
+                We'd like to know how you heard about us?
+              </p>
+              <select
+                class="lg:ml-8 lg:w-60 w-full border-b border-color inline-block font-openSans-light py-2 -mt-5 focus:outline-none"
+              >
+                <option></option>
+                <option>yes</option>
+                <option>no</option>
+              </select>
+            </div>
+
+            <div class="mt-20 border-b pb-5 lg:w-4/5">
+              <h2 class="font-openSans-bold text uppercase md:text-2xl text-lg">
+                CO-APPLICANT EMPLOYMENT INFORMATION
+              </h2>
+            </div>
+
+            <div class="w-full lg:pl-6 my-6">
+              <textarea class="border lg:w-4/5 p-4 outline-none focus:outline-none" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="lg:w-2/3 w-full flex flex-wrap lg:flex-col items-center">
+              <a
+                class="px-6 py-2 rounded-md text-white font-openSans-semiBold primary-btn lg:mt-8 mb-4 lg:text-base text-sm lg:w-60 w-full text-center"
+                href="./form4.html"
+              >
+                Continue Application
+            </a>
+              <p class="lg:mt-8 mb-16 text-sm lg:ml-28 font-openSans-light">
+                By pressing Continue Application Button, you are agreeing to our
+                <a href="#" class="blue-color">Terms & Conditions</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container mx-auto py-12 lg:px-0 px-4">
+        <div class="flex flex-wrap">
+          <div class="md:w-1/5 w-full">
+            <img src="./assets/img/logo-white.svg" alt="" />
+          </div>
+          <div class="lg:w-1/6 w-full lg:my-0 my-6">
+            <ul>
+              <li class="mb-2">
+                <a href="#" class="font-openSans text-white">Home</a>
+              </li>
+              <li class="mb-2">
+                <a href="#" class="font-openSans text-white"
+                  >Loan Application</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="font-openSans text-white">About</a>
+              </li>
+              <li>
+                <a href="#" class="font-openSans text-white">Financing</a>
+              </li>
+            </ul>
+          </div>
+          <div class="lg:w-1/6 w-full">
+            <ul>
+              <li class="mb-2">
+                <a href="#" class="font-openSans text-white">Escrow</a>
+              </li>
+              <li class="mb-2">
+                <a href="#" class="font-openSans text-white">Contact</a>
+              </li>
+              <li class="mb-2">
+                <a href="#" class="font-openSans text-white">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="#" class="font-openSans text-white">We on Facebook</a>
+              </li>
+            </ul>
+          </div>
+          <div class="lg:w-1/5 w-full lg:my-0 my-6">
+            <div class="flex items-start">
+              <div class="w-10">
+                <img src="./assets/img/home-icon.svg" alt="" class="mt-2" />
+              </div>
+              <p class="text-white font-openSans-semiBold">
+                2244 Faraday Avenue Suite 92 <br />Carlsbad, CA 92008
+              </p>
+            </div>
+            <div class="flex items-center my-4">
+              <div class="w-10">
+                <img
+                  src="./assets/img/footer-phone-icon.svg"
+                  alt=""
+                  class="mt-2"
+                />
+              </div>
+              <p class="text-white font-openSans-semiBold">888-732-9099</p>
+            </div>
+            <div class="flex items-center">
+              <div class="w-10">
+                <img
+                  src="./assets/img/footer-mail-icon.svg"
+                  alt=""
+                  class="mt-2"
+                />
+              </div>
+              <p class="text-white font-openSans-semiBold">
+                info@mhservices.com
+              </p>
+            </div>
+          </div>
+          <div class="lg:w-1/5 w-full">
+            <p class="text-white font-openSans-semiBold text-center">
+              Proud member:
+            </p>
+            <div class="flex xl:flex-nowrap flex-wrap mt-6 justify-center">
+              <img
+                src="./assets/img/member1.svg"
+                alt=""
+                class="mr-6 xl:mx-0 mx-auto xl:mb-0 mb-5"
+              />
+              <img
+                src="./assets/img/member2.svg"
+                alt=""
+                class="xl:mx-0 mx-auto"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="bg-black py-2">
+      <div class="container">
+        <div class="flex flex-wrap items-center">
+          <div class="md:w-1/2 w-full text-center md:mb-0 mb-3">
+            <p class="text-white font-openSans-semiBold md:text-sm">
+              Copyright &copy; 2021 MH Services Corporation. All Rights
+              Reserved.
+            </p>
+          </div>
+          <div class="md:w-1/2 w-full text-center">
+            <p class="text-white font-openSans-semiBold md:text-sm">
+              NMLS Mortgage Licesnsing 296451 | BRE Licesnsing 01946484 | Equal
+              Housing Opportunity Participant
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
