@@ -97,7 +97,11 @@
 }
 
 .contact-btn {
+<<<<<<< HEAD
   background: linear-gradient(to bottom, #f0072f, #f9413f);
+=======
+  background: linear-gradient(to left, #f0072f, #f9413f);
+>>>>>>> 71d1c5667ab756a372b06b2d17fb460ea1695b84
 }
 
 .primary-btn {
@@ -111,6 +115,17 @@
 
 .home-bg {
   background: url("../img/bg-red.svg") center / cover no-repeat;
+<<<<<<< HEAD
+=======
+}
+
+.about-bg {
+  background: url("../img/about-bg.svg") center / cover no-repeat;
+}
+
+.finance-bg {
+  background: url("../img/finance-bg.svg") center / cover no-repeat;
+>>>>>>> 71d1c5667ab756a372b06b2d17fb460ea1695b84
 }
 
 .mob-home-bg {
@@ -138,6 +153,7 @@
   color: #292929;
 }
 
+<<<<<<< HEAD
 .tile {
   display: hidden;
 }
@@ -146,4 +162,37 @@
   .tile {
     display: block !important;
   }
+=======
+.dark-blue {
+  color: #263787;
+}
+
+.dark-blue-border {
+  border-color: #263787;
+}
+
+.nav-shadow {
+  box-shadow: 0px 4px 20px rgba(0, 86, 173, 0.06);
+}
+
+.blue-gradient {
+  background: -webkit-linear-gradient(#50c6fd, #368fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.finance-card-bg {
+  background: #f3f7fe;
+}
+
+.bg-dark-blue {
+  background: #4255ab;
+}
+.dark-blue-color {
+  color: #293991;
+}
+
+.finance-cardShadow {
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.07);
+>>>>>>> 71d1c5667ab756a372b06b2d17fb460ea1695b84
 }
