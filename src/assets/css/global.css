@@ -132,6 +132,10 @@
   background: url("../img/escrow-bg.svg") center / cover no-repeat;
 }
 
+.contact-bg {
+  background: url("../img/contact-bg.svg") center / cover no-repeat;
+}
+
 .mob-home-bg {
   background: none;
 }
@@ -211,4 +215,12 @@
 .finance-cardShadow {
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.07);
 >>>>>>> 71d1c5667ab756a372b06b2d17fb460ea1695b84
+}
+
+.light-border {
+  border-color: #dde2ec;
+}
+
+.contact-input:focus {
+  background: rgba(243, 247, 254, 0.5);
 }
