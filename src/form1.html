@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form 1</title>
+    <link href="./assets/css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/global.css" />
+  </head>
+  <body>
+    <header class="nav-shadow xl:pl-10">
+      <nav
+        class="flex items-center bg-red-white py-5 container mx-auto xl:pl-20 lg:px-0 px-5"
+      >
+        <a href="./index.html">
+          <img src="./assets/img/logo2.svg" alt="" />
+        </a>
+
+        <div class="xl:mx-20 lg:block hidden">
+          <ul class="flex">
+            <li class="inline mx-8 text-lg font-openSans">
+              <a href="./about.html">About</a>
+            </li>
+            <li class="inline mr-8 text-lg font-openSans">
+              <a href="./finances.html">Financing</a>
+            </li>
+            <li class="inline mr-8 text-lg font-openSans">
+              <a href="./insurance.html">Insurance</a>
+            </li>
+            <li class="inline mr-8 text-lg font-openSans">
+              <a href="./escrow.html">Escrow</a>
+            </li>
+            <li class="inline mr-8 text-lg font-openSans">
+              <a href="#">Loan status</a>
+            </li>
+            <li class="inline mr-8 text-lg font-openSans">
+              <a href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="lg:flex hidden items-center">
+          <img src="./assets/img/phone-icon2.svg" alt="" />
+          <p class="font-openSans-semiBold mx-6 text-xl">888 732 9099</p>
+          <button
+            class="px-8 py-2 rounded-md text-white font-openSans-semiBold primary-btn text-base"
+          >
+            Online application
+          </button>
+        </div>
+        <button
+          class="bg-transparent outline-none focus:outline-none lg:hidden block ml-auto"
+        >
+          <span class="block bg-black w-8 h-1"></span>
+          <span class="block bg-black w-8 h-1 my-1"></span>
+          <span class="block bg-black w-8 h-1"></span>
+        </button>
+      </nav>
+    </header>
+
+    <!-- Form content -->
+    <section>
+      <div class="flex flex-wrap overflow-x-hidden">
+        <div
+          class="lg:w-1/3 lg:block flex items-center justify-center w-full lg:min-h-screen h-full relative lg:px-0 px-4 lg:py-0 py-8"
+          style="background-color: #f3f7fe"
+        >
+          <img
+            src="./assets/img/form-step-1.svg"
+            alt=""
+            class="lg:absolute lg:right-10 lg:top-32 lg:w-3/4"
+          />
+        </div>
+        <div class="lg:w-2/3 w-full">
+          <!-- Heading -->
+          <div class="mx-auto text-center mt-12">
+            <h1 class="font-shippori-bold uppercase lg:text-4xl">
+              mh loans secure online application
+            </h1>
+          </div>
+          <div class="mt-16 xl:ml-28 lg:ml-12 mx-4 border-b pb-5 lg:w-4/5">
+            <h2 class="font-openSans-bold uppercase text-2xl">
+              choose your loan type.
+            </h2>
+          </div>
+          <!-- form -->
+          <form class="mt-6 xl:ml-28 lg:ml-12 px-4 mb-10 w-full">
+            <!-- radio input / loan type -->
+            <div>
+              <label
+                for="loan type"
+                class="font-openSans-bold lg:text-lg text-sm"
+                >Are you refinancing or purchasing a manufactured or mobile
+                home? <span class="star-color">*</span>
+              </label>
+              <div>
+                <label for="I'm refinancing" class="lg:inline-block block"
+                  ><input
+                    type="radio"
+                    required
+                    class="lg:ml-6 sm:ml-2 mt-8"
+                    value="I'm refinancing"
+                  />
+                  <span class="ml-2 font-openSans font-extralight text-xs mr-6"
+                    >I'm refinancing</span
+                  >
+                </label>
+                <label
+                  for="I'm purchasing a USED manufactured home"
+                  class="lg:inline-block block"
+                  ><input
+                    type="radio"
+                    required
+                    class="lg:ml-6 sm:ml-2 mt-8"
+                    value="I'm purchasing a USED manufactured home"
+                  />
+                  <span class="ml-2 font-openSans font-extralight text-xs mr-6"
+                    >I'm purchasing a USED manufactured home</span
+                  >
+                </label>
+                <label
+                  for="I'm purchasing a NEW manufactured home"
+                  class="lg:inline-block block"
+                  ><input
+                    type="radio"
+                    required
+                    class="lg:ml-6 sm:ml-2 mt-8"
+                    value="I'm purchasing a NEW manufactured home"
+                  />
+                  <span class="ml-2 font-openSans font-extralight text-xs"
+                    >I'm purchasing a NEW manufactured home</span
+                  >
+                </label>
+              </div>
+            </div>
+
+            <!-- email input -->
+            <div class="mt-8">
+              <label for="loan type" class="font-openSans-bold text-md"
+                >Your email address <span class="star-color">*</span>
+              </label>
+              <input
+                type="email"
+                class="lg:w-60 sm:w-4/6 w-full border-b border-color block font-openSans-light text-xs mt-6 lg:ml-6 sm:ml-2 py-2 focus:outline-none"
+                placeholder="Email Address"
+                required
+              />
+            </div>
+            <!-- name input -->
+            <div class="mt-8">
+              <label
+                for="loan type"
+                class="font-openSans-bold lg:text-lg text-sm"
+                >Your full name <span class="star-color">*</span>
+              </label>
+              <div class="flex flex-wrap items-center">
+                <input
+                  type="text"
+                  class="lg:w-60 w-full border-b border-color lg:inline-block sm:block font-openSans-light text-xs mt-6 lg:ml-6 sm:ml-2 py-2 focus:outline-none"
+                  placeholder="First Name"
+                  required
+                />
+                <input
+                  type="text"
+                  class="lg:w-28 border-b border-color lg:inline-block w-full sm:w-4/6 font-openSans-light text-xs mt-6 lg:ml-8 sm:ml-2 py-2 focus:outline-none"
+                  placeholder="Mi"
+                  required
+                />
+                <input
+                  type="text"
+                  class="lg:w-60 sm:w-4/6 w-full border-b border-color lg:inline-block sm:block font-openSans-light text-xs mt-6 lg:ml-8 sm:ml-2 py-2 focus:outline-none"
+                  placeholder="Last Name"
+                  required
+                />
+              </div>
+            </div>
+            <!-- Address Input -->
+            <div class="mt-8">
+              <label
+                for="loan type"
+                class="font-openSans-bold lg:text-lg text-sm"
+                >Your current address <span class="star-color">*</span>
+              </label>
+              <div>
+                <input
+                  type="text"
+                  class="lg:w-96 sm:w-4/6 w-full border-b border-color lg:inline-block block font-openSans-light text-xs mt-6 lg:ml-6 sm:ml-2 py-2 focus:outline-none"
+                  placeholder="Address"
+                  required
+                />
+                <input
+                  type="text"
+                  class="lg:w-60 sm:w-4/6 w-full border-b border-color inline-block font-openSans-light text-xs mt-6 lg:ml-6 sm:ml-2 py-2 focus:outline-none"
+                  placeholder="Space Number"
+                  required
+                />
+              </div>
+              <div>
+                <input
+                  type="text"
+                  class="lg:w-96 sm:w-4/6 w-full border-b border-color inline-block font-openSans-light text-xs mt-6 lg:ml-6 sm:ml-2 py-2 focus:outline-none"
+                  placeholder="City"
+                  required
+                />
+                <select
+                  class="lg:w-28 sm:w-4/6 w-full form-select border-b border-color inline-block font-openSans-light text-xs mt-6 lg:ml-6 sm:ml-2 py-2 focus:outline-none"
+                  placeholder=""
+                  required
+                >
+                  <option>United States</option>
+                  <option>Canada</option>
+                </select>
+                <input
+                  type="text"
+                  class="lg:w-24 sm:w-4/6 w-full border-b border-color inline-block font-openSans-light text-xs mt-6 lg:ml-6 sm:ml-2 py-2 focus:outline-none"
+                  placeholder="Zip"
+                  required
+                />
+              </div>
+            </div>
+            <!-- length of current address -->
+            <div class="mt-8">
+              <label
+                for="loan type"
+                class="font-openSans-bold lg:text-lg text-sm"
+                >Length at current address <span class="star-color">*</span>
+              </label>
+              <div class="relative">
+                <input
+                  type="text"
+                  class="lg:w-28 w-full border-b border-color inline-block font-openSans-light text-xs mt-6 lg:ml-6 sm:ml-2 py-2 focus:outline-none"
+                  required
+                />
+                <p
+                  class="inline-block lg:absolute text-xs lg:ml-2 lg:mt-11 font-openSans-light"
+                >
+                  Years
+                </p>
+                <input
+                  type="text"
+                  class="lg:w-28 w-full border-b border-color inline-block font-openSans-light text-xs mt-6 lg:ml-16 ml-0 py-2 focus:outline-none"
+                  required
+                />
+                <p
+                  class="inline-block lg:absolute lg:ml-4 md:mt-11 font-openSans-light text-xs"
+                >
+                  Months
+                </p>
+              </div>
+            </div>
+            <!-- Previous Address -->
+            <div class="mt-8">
+              <label
+                for="loan type"
+                class="font-openSans-bold lg:text-lg text-sm"
+                >Your previous address (if current is less than 3 years)
+                <span class="star-color">*</span>
+              </label>
+              <div>
+                <input
+                  type="text"
+                  class="lg:w-96 sm:w-4/6 w-full border-b border-color inline-block font-openSans-light text-xs mt-6 lg:ml-6 sm:ml-2 py-2 focus:outline-none"
+                  placeholder="Address"
+                  required
+                />
+              </div>
+              <div>
+                <input
+                  type="text"
+                  class="lg:w-96 sm:w-4/6 w-full border-b border-color inline-block font-openSans-light text-xs mt-6 lg:ml-6 sm:ml-2 py-2 focus:outline-none"
+                  placeholder="City"
+                  required
+                />
+                <select
+                  class="lg:w-28 sm:w-4/6 w-full form-select border-b border-color inline-block font-openSans-light text-xs mt-6 lg:ml-6 sm:ml-2 py-2 focus:outline-none"
+                  placeholder=""
+                  required
+                >
+                  <option>United States</option>
+                  <option>Canada</option>
+                </select>
+              </div>
+            </div>
+            <!-- after previos address length of current address -->
+            <div class="mt-8">
+              <label
+                for="loan type"
+                class="font-openSans-bold lg:text-lg text-sm"
+                >Length at current address <span class="star-color">*</span>
+              </label>
+              <div class="relative">
+                <input
+                  type="text"
+                  class="lg:w-28 w-full border-b border-color inline-block font-openSans-light text-xs mt-6 lg:ml-6 sm:ml-2 py-2 focus:outline-none"
+                  required
+                />
+                <p
+                  class="inline-block lg:absolute text-xs lg:ml-2 lg:mt-11 font-openSans-light"
+                >
+                  Years
+                </p>
+                <input
+                  type="text"
+                  class="lg:w-28 w-full border-b border-color inline-block font-openSans-light text-xs mt-6 lg:ml-16 ml-0 py-2 focus:outline-none"
+                  required
+                />
+                <p
+                  class="inline-block lg:absolute lg:ml-4 md:mt-11 font-openSans-light text-xs"
+                >
+                  Months
+                </p>
+              </div>
+            </div>
+            <!-- Telephone input -->
+            <div class="mt-8">
+              <label
+                for="telephone"
+                class="font-openSans-bold lg:text-lg text-sm"
+                >Home telephone <span class="star-color">*</span>
+              </label>
+              <input
+                type="text"
+                class="lg:w-96 sm:w-4/6 border-b border-color block font-openSans-light text-xs mt-6 lg:ml-6 sm:ml-2 py-2 focus:outline-none"
+                placeholder="      -               -"
+                required
+              />
+            </div>
+            <!-- Best Contact input -->
+            <div class="mt-8">
+              <label for="contact" class="font-openSans-bold lg:text-lg text-sm"
+                >Best Contact Number <span class="star-color">*</span>
+              </label>
+              <div>
+                <input
+                  type="text"
+                  class="border-b lg:w-96 sm:w-4/6 border-color inline-block font-openSans-light text-xs mt-6 lg:ml-6 sm:ml-2 py-2 focus:outline-none"
+                  placeholder="      -               -"
+                  required
+                />
+                <select
+                  class="form-select lg:w-28 sm:w-4/6 border-b border-color inline-block font-openSans-light text-xs mt-6 lg:ml-6 sm:ml-2 py-2 focus:outline-none"
+                  placeholder=""
+                  required
+                >
+                  <option>Best Time To Call</option>
+                  <option>8 to 10 AM</option>
+                  <option>11 to 12PM</option>
+                  <option>7 to 8 PM</option>
+                </select>
+              </div>
+            </div>
+            <!-- Social Secrity & Birthday input -->
+            <div class="mt-8">
+              <label for="contact" class="font-openSans-bold lg:text-lg text-sm"
+                >Your social security & birthday
+                <span class="star-color">*</span>
+              </label>
+              <div>
+                <input
+                  type="text"
+                  class="lg:w-96 sm:w-4/6 border-b border-color inline-block font-openSans-light text-xs mt-6 lg:ml-6 sm:ml-2 py-2 focus:outline-none"
+                  placeholder="      -               -"
+                  required
+                />
+                <div class="flex flex-wrap items-center">
+                  <p
+                    class="inline-block text-xs ml-2 mt-8 font-openSans-light md:w-1/5 w-full"
+                  >
+                    Birthday
+                  </p>
+
+                  <span class="lg:ml-24 sm:ml-8 font-openSans-light text-sm"
+                    >M
+                    <select
+                      class="lg:w-28 sm:w-4/6 form-select border-b border-color font-openSans-light text-xs mt-6 ml-2 py-2 focus:outline-none"
+                      placeholder=""
+                      required
+                    >
+                      <option>January</option>
+                      <option>February</option>
+                      <option>March</option>
+                      <option>April</option>
+                      <option>May</option>
+                      <option>June</option>
+                      <option>July</option>
+                      <option>August</option>
+                      <option>September</option>
+                      <option>October</option>
+                      <option>November</option>
+                      <option>December</option>
+                    </select>
+                  </span>
+                  <span class="mx-4 font-openSans-light text-sm"
+                    >D
+                    <select
+                      class="lg:w-28 sm:w-4/6 form-select border-b border-color font-openSans-light text-xs mt-6 ml-2 py-2 focus:outline-none"
+                      placeholder=""
+                      required
+                    >
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                      <option>7</option>
+                      <option>8</option>
+                      <option>9</option>
+                      <option>10</option>
+                      <option>11</option>
+                      <option>12</option>
+                      <option>13</option>
+                      <option>14</option>
+                      <option>15</option>
+                      <option>16</option>
+                      <option>17</option>
+                      <option>18</option>
+                      <option>19</option>
+                      <option>20</option>
+                      <option>21</option>
+                      <option>22</option>
+                      <option>23</option>
+                      <option>24</option>
+                      <option>25</option>
+                      <option>26</option>
+                      <option>27</option>
+                      <option>28</option>
+                      <option>29</option>
+                      <option>30</option>
+                      <option>31</option>
+                    </select>
+                  </span>
+                  <span class="font-openSans-light text-sm"
+                    >Y
+                    <select
+                      class="lg:w-28 sm:w-4/6 form-select border-b border-color font-openSans-light text-xs mt-6 ml-2 py-2 focus:outline-none"
+                      placeholder=""
+                      required
+                    >
+                      <option>1990</option>
+                      <option>1991</option>
+                      <option>1992</option>
+                      <option>1993</option>
+                      <option>1994</option>
+                      <option>1995</option>
+                      <option>1996</option>
+                      <option>1997</option>
+                      <option>1998</option>
+                      <option>1999</option>
+                      <option>2000</option>
+                      <option>2001</option>
+                      <option>2002</option>
+                      <option>2003</option>
+                      <option>2004</option>
+                      <option>2005</option>
+                      <option>2006</option>
+                      <option>2007</option>
+                      <option>2008</option>
+                      <option>2009</option>
+                      <option>2010</option>
+                      <option>2011</option>
+                      <option>2012</option>
+                      <option>2013</option>
+                      <option>2014</option>
+                      <option>2015</option>
+                      <option>2016</option>
+                      <option>2017</option>
+                      <option>2018</option>
+                      <option>2019</option>
+                      <option>2020</option>
+                      <option>2021</option>
+                    </select>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <!-- Retired Or Employed  -->
+            <div class="mt-8">
+              <label
+                for="loan type"
+                class="font-openSans-bold lg:text-lg text-sm"
+                >Are you employed or retired? <span class="star-color">*</span>
+              </label>
+              <div>
+                <label for="Employed" class="inline-block"
+                  ><input
+                    type="radio"
+                    class="lg:ml-6 sm:ml-2 mt-8"
+                    required
+                    value="Employed"
+                  />
+                  <span class="ml-2 font-openSans font-extralight text-xs mr-6"
+                    >Employed</span
+                  >
+                </label>
+                <label for="Retired" class="inline-block"
+                  ><input
+                    type="radio"
+                    class="lg:ml-6 sm:ml-2 mt-8"
+                    required
+                    value="Retired"
+                  />
+                  <span class="ml-2 font-openSans font-extralight text-xs mr-6"
+                    >Retired</span
+                  >
+                </label>
+                <label for="Self Employed" class="inline-block"
+                  ><input
+                    type="radio"
+                    class="lg:ml-6 sm:ml-2 mt-8"
+                    required
+                    value="Self Employed"
+                  />
+                  <span class="ml-2 font-openSans font-extralight text-xs"
+                    >Self Employed</span
+                  >
+                </label>
+              </div>
+            </div>
+            <!-- Credit Information For All Application -->
+            <div class="mt-16">
+              <h2 class="font-openSans-bold text uppercase lg:text-2xl text-xl">
+                CREDIT INFORMATION FOR ALL APPLICANTS
+              </h2>
+            </div>
+            <div
+              class="lg:max-w-4xl max-w-2xl sm:max-w-lg h-px form-line-color mt-4 lg:ml-0 mr-10"
+            ></div>
+            <!-- Rate Credit Input -->
+            <div class="mt-8">
+              <label for="contact" class="font-openSans-bold lg:text-lg text-sm"
+                >How do you rate your credit? <span class="star-color">*</span>
+              </label>
+              <div>
+                <select
+                  class="md:w-60 w-full form-select border-b border-color inline-block font-openSans-light text-xs mt-6 lg:ml-6 sm:ml-2 py-2 focus:outline-none"
+                  placeholder=""
+                  required
+                >
+                  <option>dummy 1</option>
+                  <option>dummy 2</option>
+                  <option>dummy 3</option>
+                  <option>dummy 4</option>
+                </select>
+              </div>
+              <div class="lg:flex">
+                <div class="mt-8">
+                  <label for="contact" class="font-openSans-bold text-sm"
+                    >Have you ever filed bankruptcy?
+                    <span class="star-color">*</span>
+                  </label>
+
+                  <div>
+                    <select
+                      class="md:w-60 w-full form-select border-b border-color font-openSans-light text-xs mt-6 lg:ml-6 sm:ml-2 py-2 focus:outline-none"
+                      placeholder=""
+                    >
+                      <option>no</option>
+                      <option>yes</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="mt-8 lg:ml-12">
+                  <label for="contact" class="font-openSans-bold text-sm"
+                    >If so, what year?
+                  </label>
+                  <div>
+                    <select
+                      class="md:w-60 w-full form-select border-b border-color font-openSans-light text-xs mt-6 lg:ml-6 sm:ml-2 py-2 focus:outline-none"
+                      placeholder=""
+                    >
+                      <option>1990</option>
+                      <option>1991</option>
+                      <option>1992</option>
+                      <option>1993</option>
+                      <option>1994</option>
+                      <option>1995</option>
+                      <option>1996</option>
+                      <option>1997</option>
+                      <option>1998</option>
+                      <option>1999</option>
+                      <option>2000</option>
+                      <option>2001</option>
+                      <option>2002</option>
+                      <option>2003</option>
+                      <option>2004</option>
+                      <option>2005</option>
+                      <option>2006</option>
+                      <option>2007</option>
+                      <option>2008</option>
+                      <option>2009</option>
+                      <option>2010</option>
+                      <option>2011</option>
+                      <option>2012</option>
+                      <option>2013</option>
+                      <option>2014</option>
+                      <option>2015</option>
+                      <option>2016</option>
+                      <option>2017</option>
+                      <option>2018</option>
+                      <option>2019</option>
+                      <option>2020</option>
+                      <option>2021</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Credit Information for All Applicaton Married or Single -->
+            <div class="mt-16">
+              <h2 class="font-openSans-bold text uppercase lg:text-2xl text-xl">
+                CREDIT INFORMATION FOR ALL APPLICANTS
+              </h2>
+            </div>
+            <div
+              class="lg:max-w-4xl max-w-2xl sm:max-w-lg h-px form-line-color mt-4 lg:ml-0 mr-10"
+            ></div>
+            <!-- Married / Single -->
+            <div class="mt-8">
+              <label for="contact" class="font-openSans-bold lg:text-lg text-sm"
+                >Married / Single <span class="star-color">*</span>
+              </label>
+              <div>
+                <select
+                  style="width: 237px"
+                  class="form-select border-b border-color inline-block font-openSans-light text-xs mt-6 ml-6 py-2 focus:outline-none"
+                  placeholder=""
+                  required
+                >
+                  <option>Married</option>
+                  <option>Single</option>
+                </select>
+              </div>
+            </div>
+            <!-- Apply Radio Input -->
+            <div class="mt-8 mb-14">
+              <label
+                for="loan type"
+                class="font-openSans-bold lg:text-lg text-sm"
+                >Who are you Applying with? <span class="star-color">*</span>
+              </label>
+              <div class="flex flex-wrap items-center">
+                <label for="I'm applying with my spouse"
+                  ><input
+                    type="radio"
+                    class="lg:ml-4 sm:ml-2 mt-8"
+                    value="I'm applying with my spouse"
+                    required
+                  />
+                  <span class="ml-2 font-openSans font-extralight text-xs mr-6"
+                    >I'm applying with my spouse</span
+                  >
+                </label>
+                <label
+                  for="I'm applying with a co-applicant that is not my spouse"
+                  ><input
+                    type="radio"
+                    class="lg:ml-6 sm:ml-2 mt-8"
+                    value="I'm applying with a co-applicant that is not my spouse"
+                    required
+                  />
+                  <span class="ml-2 font-openSans font-extralight text-xs mr-6"
+                    >I'm applying with a co-applicant that is not my
+                    spouse</span
+                  >
+                </label>
+                <label for="I'm applying alone"
+                  ><input
+                    type="radio"
+                    class="lg:ml-8 sm:ml-2 mt-8"
+                    value="I'm applying alone"
+                    required
+                  />
+                  <span class="ml-2 font-openSans font-extralight text-xs"
+                    >I'm applying alone</span
+                  >
+                </label>
+              </div>
+            </div>
+            <div class="lg:w-2/3 w-full">
+              <button
+                class="px-6 py-2 rounded-md text-white font-openSans-semiBold primary-btn mt-8 mb-4 mx-auto block"
+              >
+                Continue Application
+              </button>
+              <p class="mt-8 mb-16 text-sm lg:ml-28 font-openSans-light">
+                By pressing Continue Application Button, you are agreeing to our
+                <a href="./form2.html" class="text-blue-500"
+                  >Terms & Conditions</a
+                >
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container mx-auto py-12 lg:px-0 px-4">
+        <div class="flex flex-wrap">
+          <div class="md:w-1/5 w-full">
+            <img src="./assets/img/logo-white.svg" alt="" />
+          </div>
+          <div class="lg:w-1/6 w-full lg:my-0 my-6">
+            <ul>
+              <li class="mb-2">
+                <a href="#" class="font-openSans text-white">Home</a>
+              </li>
+              <li class="mb-2">
+                <a href="#" class="font-openSans text-white"
+                  >Loan Application</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="font-openSans text-white">About</a>
+              </li>
+              <li>
+                <a href="#" class="font-openSans text-white">Financing</a>
+              </li>
+            </ul>
+          </div>
+          <div class="lg:w-1/6 w-full">
+            <ul>
+              <li class="mb-2">
+                <a href="#" class="font-openSans text-white">Escrow</a>
+              </li>
+              <li class="mb-2">
+                <a href="#" class="font-openSans text-white">Contact</a>
+              </li>
+              <li class="mb-2">
+                <a href="#" class="font-openSans text-white">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="#" class="font-openSans text-white">We on Facebook</a>
+              </li>
+            </ul>
+          </div>
+          <div class="lg:w-1/5 w-full lg:my-0 my-6">
+            <div class="flex items-start">
+              <div class="w-10">
+                <img src="./assets/img/home-icon.svg" alt="" class="mt-2" />
+              </div>
+              <p class="text-white font-openSans-semiBold">
+                2244 Faraday Avenue Suite 92 <br />Carlsbad, CA 92008
+              </p>
+            </div>
+            <div class="flex items-center my-4">
+              <div class="w-10">
+                <img
+                  src="./assets/img/footer-phone-icon.svg"
+                  alt=""
+                  class="mt-2"
+                />
+              </div>
+              <p class="text-white font-openSans-semiBold">888-732-9099</p>
+            </div>
+            <div class="flex items-center">
+              <div class="w-10">
+                <img
+                  src="./assets/img/footer-mail-icon.svg"
+                  alt=""
+                  class="mt-2"
+                />
+              </div>
+              <p class="text-white font-openSans-semiBold">
+                info@mhservices.com
+              </p>
+            </div>
+          </div>
+          <div class="lg:w-1/5 w-full">
+            <p class="text-white font-openSans-semiBold text-center">
+              Proud member:
+            </p>
+            <div class="flex xl:flex-nowrap flex-wrap mt-6 justify-center">
+              <img
+                src="./assets/img/member1.svg"
+                alt=""
+                class="mr-6 xl:mx-0 mx-auto xl:mb-0 mb-5"
+              />
+              <img
+                src="./assets/img/member2.svg"
+                alt=""
+                class="xl:mx-0 mx-auto"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="bg-black py-2">
+      <div class="container">
+        <div class="flex flex-wrap items-center">
+          <div class="md:w-1/2 w-full text-center md:mb-0 mb-3">
+            <p class="text-white font-openSans-semiBold md:text-sm text-xs">
+              Copyright &copy; 2021 MH Services Corporation. All Rights
+              Reserved.
+            </p>
+          </div>
+          <div class="md:w-1/2 w-full text-center">
+            <p class="text-white font-openSans-semiBold md:text-sm text-xs">
+              NMLS Mortgage Licesnsing 296451 | BRE Licesnsing 01946484 | Equal
+              Housing Opportunity Participant
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

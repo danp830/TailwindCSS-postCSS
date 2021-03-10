@@ -6,7 +6,7 @@
 @font-face {
   font-family: "OpenSans-Light";
   src: url("../fonts/OpenSans-Regular_0.ttf") format("truetype");
-  font-weight: 200;
+  font-weight: 100;
 }
 
 @font-face {
@@ -224,3 +224,46 @@
 .contact-input:focus {
   background: rgba(243, 247, 254, 0.5);
 }
+/* form  line color */
+.form-line-color{
+  background: #C4C4C4;
+}
+/* form line width */
+.form-line-w {
+  width: 983px;
+}
+
+
+
+
+/* required color for start */
+.star-color{
+  color: #0059B4;
+}
+.border-color {
+  color: #C4C4C4;
+}
+.blue-color{
+
+  color:#355AFF
+}
+/* input width */
+.w-237 {
+  width: 237px;
+}
+.w-413 {
+  width:413px;
+}
+.w-107 {
+  width: 107px;
+}
+.w-114 {
+  width: 114px;
+}
+.w-120 {
+  width: 120px;
+}
+.w-150 {
+  width: 150px;
+}
+
