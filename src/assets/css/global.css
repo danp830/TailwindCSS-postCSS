@@ -128,6 +128,10 @@
   background: url("../img/insurance-bg.svg") center / cover no-repeat;
 }
 
+.escrow-bg {
+  background: url("../img/escrow-bg.svg") center / cover no-repeat;
+}
+
 .mob-home-bg {
   background: none;
 }
@@ -183,6 +187,12 @@
 
 .green-gradient {
   background: -webkit-linear-gradient(#6aefb2, #51c789);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.orange-gradient {
+  background: -webkit-linear-gradient(#ffac75, #ff781b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
