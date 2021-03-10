@@ -111,8 +111,6 @@
 
 .home-bg {
   background: url("../img/bg-red.svg") center / cover no-repeat;
-<<<<<<< HEAD
-=======
 }
 
 .about-bg {
@@ -121,7 +119,6 @@
 
 .finance-bg {
   background: url("../img/finance-bg.svg") center / cover no-repeat;
->>>>>>> 71d1c5667ab756a372b06b2d17fb460ea1695b84
 }
 
 .insurance-bg {
@@ -161,16 +158,6 @@
   color: #292929;
 }
 
-<<<<<<< HEAD
-.tile {
-  display: hidden;
-}
-
-@media only screen and (min-width: 1536px) {
-  .tile {
-    display: block !important;
-  }
-=======
 .dark-blue {
   color: #263787;
 }
@@ -214,7 +201,6 @@
 
 .finance-cardShadow {
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.07);
->>>>>>> 71d1c5667ab756a372b06b2d17fb460ea1695b84
 }
 
 .light-border {
